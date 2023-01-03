@@ -1,4 +1,5 @@
 from easyocr.easyocr import *
+import os
 
 # GPU 설정
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
